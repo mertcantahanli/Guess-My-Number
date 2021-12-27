@@ -23,7 +23,7 @@ document.querySelector('.check').addEventListener('click', function () {
   } 
   else if(inputnum!=guessnum){
     if (score>1) {
-    displayMessage(inputnum < guessnum ? 'Too High' : 'Too Low');
+    displayMessage(inputnum < guessnum ? 'Too High' : 'Too Low ');
     score--;
     document.querySelector('.score').textContent = score;
   } else {
